@@ -4,14 +4,14 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 ## Installation
 
-Add this line to your application's Gemfile:
 
+Add this line to your application's Gemfile:
 ```ruby
 gem 'game_genres'
 ```
 
 And then execute:
-
+# bundle 
     $ bundle
 
 Or install it yourself as:
