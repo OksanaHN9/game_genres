@@ -3,13 +3,10 @@ require_relative 'nokogiri'
 require 'open_uri' 
 require 'colorize'
 
+Class GameGenres::Scraper 
 
-class CommandLineInterface 
-  BASE_PATH = https://store.steampowered.com
-  
-  #want list of genres 
-  #list of titles in that genre 
-  #description of genres 
+
+
   
 
     
