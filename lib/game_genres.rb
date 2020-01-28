@@ -26,4 +26,13 @@ end
 def genre_description
   input = nil 
   while input != "exit"
+  puts "Please select the genre you want to know more about and we will provide a description on that genre."
+  
+  elsif input == "action" "horror" "fps" "mmo"
+  elsif input == "exit"
+      #see you soon 
+ end 
+end 
+
+
   
