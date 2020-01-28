@@ -6,17 +6,17 @@ class GameGenres::CLI
     puts "To select a list of genres you can select genre"
     puts "To select a list of titles select title"
     puts "to select a description of a specific genre select description"
-    list_genre 
+    genre 
 end 
 
-  def list_genre
+  def genre
     GameGenres::Scraper.scrape 
     input = nil 
       while input != "exit"
     puts ""
     puts "Enter genre"
     
-    if input.list_genre 
+    if input.genre 
       return genre.list 
       puts "Here is a list of all our available genres"
       
@@ -24,3 +24,28 @@ end
       list_genres 
     elsif input == "exit"  
       returning to main menu 
+    else 
+      puts "please select either genre or exit"
+    end
+  end   
+end 
+end 
+
+  def title 
+    GameGenres::Scraper.scrape 
+    input = nil 
+      while input != "exit"
+    puts ""
+    puts "Enter title"
+    
+    if input.title 
+      return title.list 
+      puts "Here is a list of available titles"
+      
+      
+      
+      
+      
+      
+      
+      
