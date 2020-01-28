@@ -20,6 +20,6 @@ end
   
   Select titles do 
   Context '.new_from_steam_store' do 
-    it 'it selects list of genres at the steamstore'
+    it 'it selects list of titles at the steamstore'
     
 end 
