@@ -46,8 +46,21 @@ end
       list_titles 
     elsif input == "exit"
       returning to main menu 
-      
-      
+    else 
+      puts "please select either title or exit"
+    end 
+  end   
+end       
+end 
+
+  def description 
+    GameGenres::Scraper.scrape 
+    input = nil 
+      while input != "exit"
+      puts ""
+      puts "Enter Genre"
+      puts "Enter title"
+      puts "Select description"
       
       
       
