@@ -42,6 +42,20 @@ end
       return title.list 
       puts "Here is a list of available titles"
       
+    elsif input == "title" 
+      list_titles 
+    elsif input == "exit"
+      returning to main menu 
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
       
       
       
