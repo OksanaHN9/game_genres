@@ -11,7 +11,5 @@ class CommandLineInterface
   #list of titles in that genre 
   #description of genres 
   
-Select genre do 
-  Context '.new_from_steam_store' do 
-    it 'it selects list of genres at the steamstore'
+
     
