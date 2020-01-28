@@ -2,13 +2,13 @@ require 'pry'
 class Games_Genres::Titles 
   
   def self.all 
-    self.scrape_genres 
+    self.scrape_titles 
 end 
   
-  def self.scrape_genres 
-    genres = nil 
+  def self.scrape_titles 
+    titles = nil 
     
-  genres = self.steamstore 
+  titles = self.steamstore 
   
 end   
 
