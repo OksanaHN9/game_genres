@@ -61,8 +61,20 @@ end
       puts "Enter Genre"
       puts "Enter title"
       puts "Select description"
+   if input.description 
+      puts "select either genre or title or exit" 
       
-      
+   elsif input == "genre"
+      puts "select genre you want a description of"
+   elsif input == "title"  
+      puts "select title you want a description of"
+   else 
+     puts "please select either genre, title, or exit"    
+    end 
+  end 
+end   
+end 
+    
       
       
       
