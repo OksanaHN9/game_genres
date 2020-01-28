@@ -1,5 +1,6 @@
 require 'pry'
 class Games_Genres::Genre 
+  puts "a list of genres available at the steam store"
   
   def self.all 
     self.scrape_genres 
