@@ -3,11 +3,10 @@ require_relative 'nokogiri'
 require 'open_uri' 
 require 'colorize'
 
-Class GameGenres::Scraper 
-
-def genre 
-  puts "list of all genres"
-  <div class = "gutter_header pad">Browse_by_genre</div> == $0
+html = open("https://store.steampowered.com/genre")
+Nokogiri::HTML(html)
+doc = Nokogiri::HTML(html)
+ 
   
 
     
